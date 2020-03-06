@@ -32,4 +32,25 @@ We have used microsoft's state of the art cognitive servies **(face api)** inste
 ![alt WORKFLOW](https://github.com/adityauser/Milan/blob/master/Images/API_flow_chart.jpg)
 
 
-
+## How to run it on the local computer.
+1- clone this repo in your local.
+```console
+local:~$ git clone https://github.com/RituRajSingh878/Milan-1
+```
+2- Go into Milan directory by following command.
+```console
+local:~$ cd Milan
+```
+3 - make a new env of python by following commands
+```console
+local/Milan:~$ conda create -n env_2 python=3.4
+local/Milan:~$ conda activate env_2
+```
+4- install the required lib
+```console
+local/Milan:~$ pip install --user --requirement requirements.txt
+```
+5- Run the server by following commands
+```console
+local/Milan:~$ python manage.py runserver
+```
